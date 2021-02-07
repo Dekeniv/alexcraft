@@ -1,0 +1,455 @@
+/* fonts */
+@font-face {
+  font-family: "Brush Script";
+  src: url("/fonts/brush-script-mt-italic.woff") format("woff");
+}
+
+/*=================================================
+                        TESTS
+=================================================*/
+
+.displayNone {
+  display: none;
+}
+
+.border {
+  border: 2px solid red;
+}
+
+/*=================================================
+                        GLOBAL
+=================================================*/
+
+* {
+  box-sizing: border-box; /* si je définis un padding à mon élément, il sera compris dans ma witdh et height */
+}
+
+html {
+  font-size: 62.5%; /* correspond à 10px pour utiliser le rem */
+}
+
+body {
+  font-size: 1.6rem; /* taille de police de 16px de base, norme visuelle */
+  margin: 0; /* retire les marges par défaut entre le body et le navigateur*/
+  font-family: "Raleway", Arial, sans-serif;
+  position: relative;
+}
+
+ul {
+  list-style-type: none; /* retire les puces sur les li */
+  padding: 0; /* retire le padding de 40% des li par défaut */
+}
+
+img {
+  max-width: 100%; /* évite à une image de dépasser de son parent */
+}
+
+strong {
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #3f4040;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  text-align: center;
+}
+
+/*=================================================
+                        HEADER
+=================================================*/
+
+/*----------- global */
+
+header {
+  position: fixed;
+  z-index: 200;
+  width: 100%;
+}
+
+.container80 {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+header .container:first-child,
+footer {
+  background: rgb(0, 20, 38);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 20, 38, 1) 0%,
+    rgba(9, 9, 121, 1) 33%,
+    rgba(0, 144, 173, 1) 100%
+  );
+}
+
+.flexHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a {
+  text-decoration: none;
+}
+
+/*----------- header/logo */
+
+.logo {
+  width: 200px;
+  filter: drop-shadow(3px 4px 5px white);
+}
+
+.titleWebsite {
+  color: white;
+  font-size: 4rem;
+  font-family: Brush Script;
+  text-shadow: 2px 4px black;
+}
+
+/*----------- menu normal */
+.menu {
+  background-color: #011e69;
+  justify-content: space-evenly;
+}
+
+.menu a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 20%;
+  transition: all 0.2s;
+}
+
+.menu a p {
+  text-align: center;
+}
+
+.menu a:nth-child(2),
+.menu a:nth-child(3),
+.menu a:nth-child(4),
+.menu a:nth-child(5),
+.menu a:nth-child(6) {
+  border-left: 1px solid white;
+}
+.menu a:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.2s;
+}
+
+.menu a:nth-child(6) {
+  color: #ffc800;
+}
+
+/*=================================================
+                        MENU HAMBURGER START
+=================================================*/
+/*----------- bouton */
+.buttonHamburger {
+  position: absolute;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  margin: 15px;
+  z-index: 400;
+  transition: all 0.25s ease-in-out;
+  outline-style: none;
+  top: 0;
+}
+
+.buttonHamburger i {
+  color: #011e69;
+}
+
+/*
+.buttonHamburger:hover{
+    background-color: #077fa6;
+  }
+*/
+
+/*----------- menu */
+
+.menuHamburger {
+  width: 305px;
+  margin-top: -90px;
+  padding: 180px 50px 50px 50px;
+  background: #fff;
+  position: absolute;
+  top: 0px;
+  z-index: 300;
+  transition: 0.7s;
+  transform: translateX(-305px);
+}
+
+.effetMenu {
+  transition: 0.7s;
+  transform: translateX(0);
+}
+
+.menuHamburger li {
+  padding: 20px 10px 10px 10px;
+}
+.menuHamburger li a {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #011e69;
+  font-weight: bold;
+}
+
+.menuHamburger ul li:nth-child(6) a {
+  color: #ffc800;
+}
+
+.displayBlock {
+  display: block;
+}
+/*=================================================
+                        MENU HAMBURGER END
+=================================================*/
+
+/*=================================================
+                        MAIN
+=================================================*/
+
+/*----------- global */
+
+.secondMain {
+  padding: 220px 0 20px 0;
+}
+
+.backgroundMain {
+  background-image: url("/img/fond.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.divWhite {
+  background-color: #fff;
+}
+
+/*----------- buttonTop */
+
+.buttonTop i {
+  color: #fff;
+}
+
+.buttonTop {
+  transition: all 0.25s ease-in-out;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3em 3em 0;
+  width: 60px;
+  height: 60px;
+  background-color: #011e69;
+  border-radius: 10px;
+}
+
+.buttonTop:hover {
+  background-color: #077fa6;
+}
+
+.buttonTop.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.buttonTop.hide {
+  visibility: hidden;
+  opacity: 0;
+}
+
+/*----------- form */
+.errorInput {
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.error {
+  font-size: 1rem;
+  color: red;
+}
+
+h2 {
+  padding: 30px 0 0 0;
+  font-size: 2rem;
+}
+
+.contact h2 {
+  text-decoration: underline;
+}
+.contact {
+  padding: 30px;
+  text-align: center;
+}
+
+.contact i {
+  padding: 5px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.hoursContact {
+  font-size: 1.2rem;
+}
+
+.field,
+.value,
+.toolbar {
+  padding: 5px 0;
+}
+
+.contact input,
+textarea {
+  width: 300px;
+}
+
+textarea {
+  height: 200px;
+}
+
+.buttonForm {
+  border: none;
+  color: #fff;
+  background-color: #011e69;
+  border-radius: 5px;
+  padding: 6px;
+  transition: all 0.2s;
+}
+
+.buttonForm:hover {
+  transition: all 0.2s;
+  background-color: #077fa6;
+  color: #fff;
+}
+
+.redStar::after {
+  content: " *";
+  color: red;
+}
+
+/*=================================================
+                        FOOTER
+=================================================*/
+
+/*----------- example */
+
+footer {
+  padding: 15px 0;
+  text-align: center;
+}
+
+footer i {
+  padding: 0 10px;
+  color: white;
+  transition: all 0.2s;
+}
+
+footer a i:hover,
+footer p a:hover {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+footer p a {
+  color: white;
+  font-size: 1.4rem;
+  transition: all 0.2s;
+}
+
+footer p {
+  margin: 0;
+  padding-top: 10px;
+}
+
+/*=================================================
+                        RESPONSIVE
+=================================================*/
+
+/*----------- DESKTOP */
+
+/* 
+@media screen and (max-width :) 
+*/
+
+/*----------- TABLET */
+
+@media screen and (max-width: 1000px) {
+  .logo {
+    width: 100px;
+  }
+
+  .menuHamburger,
+  .buttonHamburger {
+    display: block;
+  }
+
+  .menuNormal {
+    display: none;
+  }
+
+  .titleWebsite {
+    display: none;
+  }
+
+  .flexHeader {
+    display: block;
+    text-align: right;
+    padding: 20px 0;
+  }
+
+  .secondMain {
+    padding: 150px 0 70px 0;
+  }
+
+  .buttonTop {
+    display: none;
+  }
+}
+
+/*----------- MOBILE */
+
+@media screen and (max-width: 600px) {
+  .menuHamburger {
+    width: 100vw;
+    transform: translateX(-100vw);
+  }
+
+  .effetMenu {
+    transform: translateX(0);
+  }
+
+  .menuHamburger li {
+    text-align: center;
+  }
+
+  .flexHeader {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact input,
+  textarea {
+    width: 200px;
+  }
+}
