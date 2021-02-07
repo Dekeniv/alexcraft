@@ -8,7 +8,7 @@
             <div class="divWhite container80">
 
                 <!-- ceci est un commentaire -->
-                <p>Texte à ege</p>
+                <p>Texte</p>
 
             </div>
         </div>
