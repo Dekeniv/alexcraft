@@ -24,7 +24,7 @@ $email = $_POST['mail'];
 $query = $_POST['query'];
 
 // destinataire - sujet du mail - expéditeur
-$to = 'alexcraft.gironde@gmail.com';
+$to = 'pro.kevinmarkus@gmail.com';
 $from = $_POST['mail'];
 $subject = 'Alexcraft - Demande de ' . $nom . ' ' .$prenom;
 
