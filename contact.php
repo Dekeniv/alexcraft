@@ -13,7 +13,7 @@
           <h1>Formulaire de contact</h1>
           <h2>Via téléphone</h2>
           <p>
-            <strong><b>MOIGNOT Alexandree</b></strong>
+            <strong><b>MOIGNOT Alexandre</b></strong>
           </p>
           <p>
             <i class="fas fa-sms fa-lg"></i>
@@ -77,7 +77,7 @@
               <label for="query" class="redStar">Votre demande</label>
               <?= $inputError5; ?>
               <div class="value">
-                <textarea <?=$inputBorder5; ?> name="query" id="query" placeholder="Votre demande" pattern="^[a-zA-ZÀ-ÿ ',.!?-]+$" maxlength="400" title="Maximum 100 caractères"><?= $valueQuery ?></textarea>
+                <textarea <?=$inputBorder5; ?> name="query" id="query" placeholder="Votre demande" pattern="^[a-zA-ZÀ-ÿ '-.,!?@]+$" maxlength="400" title="Maximum 400 caractères"><?= $valueQuery ?></textarea>
               </div>
 
             </div>

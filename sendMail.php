@@ -24,8 +24,9 @@ $email = $_POST['mail'];
 $query = $_POST['query'];
 
 // destinataire - sujet du mail - expéditeur
-$to = 'alexcraft.gironde@gmail.com';
-$from = $email;
+//$to = 'alexcraft.gironde@gmail.com';
+$to = 'pro.kevinmarkus@gmail.com';
+$from = $_POST['mail'];
 $subject = 'Alexcraft - Demande de ' . $nom . ' ' .$prenom;
 
 // je récupère le nom du fichier dans une variable
@@ -36,7 +37,7 @@ $boundary = md5(rand()); // clé aléatoire de limite
 
 // pattern
 $patternNomPrenom = "/^[a-zA-ZÀ-ÿ'-]+$/";
-$patternQuery = "/^[a-zA-ZÀ-ÿ '-.,!?()]+$/";
+$patternQuery = "/^[a-zA-ZÀ-ÿ '-.,!?@]+$/";
 
 // variables de session
 // je démarre la session
@@ -58,7 +59,7 @@ $inputError1 = "<p style='font-size: 1rem; color: #A3A3A3; margin: 0;'>(1 à 20 
 $inputError2 = "<p style='font-size: 1rem; color: #A3A3A3; margin: 0;'>(1 à 20 lettres minuscules/majuscules et ' ou -)</p>";
 $inputError3 = "<p style='font-size: 1rem; color: #A3A3A3; margin: 0;'>(exemple : adresse@nomdedomaine.com)</p>";
 $inputError4 = "<p style='font-size: 1rem; color: #A3A3A3; margin: 0;'>(png, jpg, jpeg ou pdf : max 2Mo)</p>";
-$inputError5 = "<p style='font-size: 1rem; color: #A3A3A3; margin: 0;'>(maximum 100 caractères, espace, '-.,!?)</p>";
+$inputError5 = "<p style='font-size: 1rem; color: #A3A3A3; margin: 0;'>(maximum 400 caractères, '-.,!?@)</p>";
 
 
 /******************************************************************/
@@ -126,7 +127,7 @@ if (
     &&
     (!empty($query)) // si la demande n'est pas vide
     &&
-    (strlen($query) <= 400) // si la demande ne dépasse pas 100 caractères
+    (strlen($query) <= 400) // si la demande ne dépasse pas 400 caractères
     &&
     (preg_match($patternQuery, $query)) // si la demande a un pattern qui correspond
 
