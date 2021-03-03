@@ -36,7 +36,7 @@ $boundary = md5(rand()); // clé aléatoire de limite
 
 // pattern
 $patternNomPrenom = "/^[a-zA-ZÀ-ÿ'-]+$/";
-$patternQuery = "/^[a-zA-ZÀ-ÿ '-.,!?@]+$/";
+$patternQuery = "/^[a-zA-ZÀ-ÿ0-9 \n\r\!\?\,\:\.\'\@]+$/";
 
 // variables de session
 // je démarre la session
@@ -58,7 +58,7 @@ $inputError1 = "<p style='font-size: 1rem; color: #A3A3A3; margin: 0;'>(1 à 20 
 $inputError2 = "<p style='font-size: 1rem; color: #A3A3A3; margin: 0;'>(1 à 20 lettres minuscules/majuscules et ' ou -)</p>";
 $inputError3 = "<p style='font-size: 1rem; color: #A3A3A3; margin: 0;'>(exemple : adresse@nomdedomaine.com)</p>";
 $inputError4 = "<p style='font-size: 1rem; color: #A3A3A3; margin: 0;'>(png, jpg, jpeg ou pdf : max 2Mo)</p>";
-$inputError5 = "<p style='font-size: 1rem; color: #A3A3A3; margin: 0;'>(maximum 400 caractères, '-.,!?@)</p>";
+$inputError5 = "<p style='font-size: 1rem; color: #A3A3A3; margin: 0;'>(maximum 400 caractères, ,!?.:'@)</p>";
 
 
 /******************************************************************/
