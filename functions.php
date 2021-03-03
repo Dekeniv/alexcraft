@@ -44,7 +44,7 @@ function errorMail($varMail)
 
 function errorQuery($varQuery)
 {
-    $patternQuery = "/^[a-zA-ZÀ-ÿ '-.,!?]+$/";
+    $patternQuery = "/^[a-zA-ZÀ-ÿ0-9 \s\!\?\,\:\.\'\@]+$/";
     if (
         (empty($varQuery))
         ||
