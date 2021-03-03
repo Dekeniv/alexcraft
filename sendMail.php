@@ -24,8 +24,8 @@ $email = $_POST['mail'];
 $query = $_POST['query'];
 
 // destinataire - sujet du mail - expéditeur
-$to = 'pro.kevinmarkus@gmail.com';
-$from = $_POST['mail'];
+$to = 'alexcraft.gironde@gmail.com';
+$from = $email;
 $subject = 'Alexcraft - Demande de ' . $nom . ' ' .$prenom;
 
 // je récupère le nom du fichier dans une variable
