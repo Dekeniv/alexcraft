@@ -36,7 +36,7 @@ $boundary = md5(rand()); // clé aléatoire de limite
 
 // pattern
 $patternNomPrenom = "/^[a-zA-ZÀ-ÿ'-]+$/";
-$patternQuery = "/^[a-zA-ZÀ-ÿ0-9 \n\r\!\?\,\:\.\'\@]+$/";
+$patternQuery = "/^[a-zA-ZÀ-ÿ0-9 \!\?\,\:\.\'\@]+$/";
 
 // variables de session
 // je démarre la session
