@@ -1,0 +1,2 @@
+RewriteCond %{SERVER_PORT} 80
+RewriteRule (.*) https://www.alexcraft.fr/$1 [R=301,L]

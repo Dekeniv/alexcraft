@@ -35,6 +35,11 @@
                     <a href="index.php"><p class="titleWebsite"><strong>Alex Craft</strong></p></a>
                 </div>
             </div>
+
+            <!-- Site en construction -->
+            <p id="construction">
+                Site en construction
+            </p>
             
 
             <!-- Menu Normal-->
