@@ -38,7 +38,7 @@
     <header>
         <!-- Logo -->
         <div class="container">
-            <div class="container80 flexHeader">
+            <div class="container90 flexHeader">
                 <a href="index.php"><img src="/img/logo.png" alt="logo du site Alex Craft" class="logo"></a>
                 <a href="index.php">
                     <p class="titleWebsite"><strong>Alex Craft</strong></p>

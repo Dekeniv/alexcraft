@@ -98,7 +98,7 @@ h5 {
 h1 {
   font-size: 3rem;
   color: #011e69;
-  padding: 10px 0;
+  padding-bottom: 10px;
 }
 
 h2 {
@@ -116,6 +116,11 @@ p, label {
 }
 
 /*----------- sections */
+section {
+  padding: 40px;
+  border-radius: 25px;
+}
+
 .mentions {
 text-align: center;
 }
@@ -136,8 +141,8 @@ header {
   width: 100%;
 }
 
-.container80 {
-  width: 80%;
+.container90 {
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -291,8 +296,7 @@ header a {
 
 .backgroundMain {
   background-image: url("/img/fond.jpg");
-  background-position: center;
-  background-size: cover;
+  background-repeat: repeat;
 }
 
 .divWhite {

@@ -5,7 +5,7 @@
 <main>
   <div class="backgroundMain">
     <div class="secondMain">
-      <div class="divWhite container80">
+      <div class="divWhite container90">
         <section class="contact">
           <!-- formulaire -->
           <h1>Formulaire de contact</h1>

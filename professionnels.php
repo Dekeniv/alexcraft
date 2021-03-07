@@ -5,7 +5,7 @@
 <main>
     <div class="backgroundMain">
         <div class="secondMain">
-            <div class="divWhite container80">
+            <div class="divWhite container90">
                 <section>
                     <!-- ceci est un commentaire -->
                     <h1>

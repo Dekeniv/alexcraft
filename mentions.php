@@ -5,7 +5,7 @@
 <main class="mainContact">
   <div class="backgroundMain">
     <div class="secondMain">
-      <div class="divWhite container80">
+      <div class="divWhite container90">
         <section class="mentions">
           <h1>Mentions Légales</h1>
           <br />
