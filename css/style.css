@@ -430,6 +430,15 @@ textarea {
   color: #011e69;
 }
 
+/*----------- slider */
+.slider {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.slider img {
+  overflow: hidden;
+}
 
 
 /*=================================================
