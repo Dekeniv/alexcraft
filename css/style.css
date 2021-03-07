@@ -517,6 +517,11 @@ footer p {
   .buttonTop {
     display: none;
   }
+
+  /*----------- slider */
+.slider {
+  width: 100%;
+}
 }
 
 /*----------- MOBILE */
