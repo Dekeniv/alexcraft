@@ -36,6 +36,7 @@
   -o-box-shadow: 0px 0px 5px 1px black;
   box-shadow: 0px 0px 5px 1px black;
   filter: progid:DXImageTransform.Microsoft.Shadow(color=black, Direction=NaN, Strength=5);
+  font-size: 4rem;
 }
 
 @keyframes construction {

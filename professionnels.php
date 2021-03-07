@@ -8,23 +8,53 @@
             <div class="divWhite container80">
 
                 <!-- ceci est un commentaire -->
-                <p>° Vente / installation / Dépannage de :</p>
-                <p>- Matériel Vidéo / Hifi</p>
-                <p>- Produits informatiques</p>
-                <p>- Matériel de salle de Réunion</p>
-                <p>- Base de télétravail</p>
-                <p>- Systèmes électriques</p>
-                <p>- Téléphones portables de société (Avec votre opérateur téléphonique actuel)</p>
-                <p>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
-                <p>° Prestation de Services Généraux</p>
-                <p>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
-                <p>Si vous souhaitez mettre votre personnel en télétravail mais qu'ils ne sont pas équipés chez eux du nécessaire</p>
-                <p>Nous nous occupons soit assurer le rapatriement et l'installation de leur ordinateur de bureau (avec votre accord), soit vous proposez à l'achat et/ou l'installation une gamme d'ordinateur qui vous servira pour cette tâche</p>
-                <p>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
-                <p>Dans une entreprise, il est parfois compliqué de gérer ses sociétés extérieures par manque de temps ou de connaissance.</p>
-                <p>Aussi nous vous proposons un accompagnement dans cette situation consistant à suivre vos entreprises extérieures présentes sur votre site afin de s'assurer que les travaux sont correctement réalisés et exploités au maximum</p>
+                <p>
+				Alexcraft vous propose ses services dans l’achat, l’installation et le dépannage de :
+</p>
+ </br>
+<p>
+-          Matériel vidéo, filaire ou sans fils, télévisions, écrans géants, vidéoprojecteurs, salles de visioconférence équipées
+</p>
 
+<p>
+-          Hi-fi, systèmes audio, systèmes sans fil, sonorisation
+</p>
 
+<p>
+-          Informatique, fixe ou portable, tablette, sur tous les systèmes d’exploitation présents sur le marché
+</p>
+
+<p>
+-          Systèmes automatisés ou asservis, alarmes, gestion des appareils électriques, éclairage, confort des lieux de travail, espaces intelligents, lutte contre les déperditions d’énergie
+</p>
+
+<p>
+-          Télétravail et outils de travail à distance
+</p>
+
+<p>
+-          Systèmes électriques, de toutes puissances, et pour tous les usages
+</p>
+</br> 
+<p>
+Exemples de réalisations récentes :
+</p>
+ </br>
+<p>
+En 2020, comme beaucoup d’autres, les employés de ma précedente entreprise ont du très soudainement être placés massivement en télétravail. J’ai pu accompagner, ce déploiement pour que chacun puisse travailler dans les meilleures conditions depuis chez lui.
+</p>
+ </br>
+<p>
+Une autre entreprise a souhaité réduire la consommation de chauffage de ses espaces de stockage et de travail. Aussi, j’ai pu mettre en place un système automatisé de gestion de la température et des ouvrants, afin d'améliorer la régulation de température et diminuer les pertes d'énergie.
+</p>
+
+</p>
+Ainsi, la température dans les hangars a augmenté de X°, sans dépense de chauffage supplémentaire, pour un meilleur confort des usagers.
+</p>
+ </br>
+<p>
+N’hésitez pas à me contacter via le formulaire pour m’exposer la situation. Je prendrai contact avec vous sous 48h pour échanger sur votre situation et trouver la solution la plus adaptée.
+</p>
             </div>
         </div>
     </div>

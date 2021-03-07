@@ -8,40 +8,53 @@
             <div class="divWhite container80">
 
                 <!-- ceci est un commentaire -->
-                <p>Vente / installation / Dépannage de :</p>
-                <p>- Matériel Vidéo / Hifi</p>
-                <p>- Produits informatiques</p>
-                <p>- Domotique</p>
-                <p>- Base de télétravail</p>
-                <p>- Systèmes électriques</p>
-                <p>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
-                <p>Vous souhaitez (par exemple) un nouvel Ordinateur. Mais sans s'y connaitre il est difficile de faire le bon choix</p>
-                <p>Prenons rendez-vous pour en discuter, me communiquer votre besoin et votre budget</p>
-                <p>Je m'occupe de tout, à savoir : l'achat, l'installation et explications de l'utilisation</p>
-                <p>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
-                <p>Si votre société vous as placé en télétravail mais vous n'avez pas le matériel nécessaire à votre domicile</p>
-                <p>Nous pouvons soit assurer le rapatriement et l'installation de votre ordinateur de bureau (avec accord de votre entreprise), soit vous proposez à l'achat une gamme d'ordinateur qui vous servira pour cette tâche</p>
-                <p>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
-                <p>Vous souhaitez un éclairage connecté ?</p>
-                <p>Après nous avoir déclaré votre besoin, nous assurons l'achat et la mise en place du système</p>
-                <p>Ainsi que des prestations de dépannage dans le futur</p>
-                <p>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
-                <p>Si vous avez des problèmes d'éléctricité, nous sommes capable de vous dépanner rapidement</p>
-                <p>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
-                <p>Si vous ne vous trouvez pas votre situation dans ce site Web, n'hésitez pas à me contacter tout de même par téléphone ou via le formulaire de contact ("Onglet : Contactez-moi) pour en discuter</p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <p>
+Alexcraft vous propose ses services dans l’achat, l’installation et le dépannage de :
+</p>
+ </br>
+<p>
+-          Matériel vidéo, filaire ou sans fils, télévisions, écrans géants, vidéoprojecteurs
+</p>
+
+<p>
+-          Hi-fi, systèmes audio, systèmes sans fil, home cinéma
+</p>
+
+<p>
+-          Informatique, fixe ou portable, tablette, sur tous les systèmes d’exploitation présents sur le marché
+</p>
+
+<p>
+-          Matériels domotiques, gestion des appareils ménagers, confort de l’habitat, maison intelligente, automatisations, lutte contre les déperditions d’énergie
+</p>
+
+<p>
+-          Télétravail et outils de travail à distance
+</p>
+
+<p>
+-          Systèmes électriques, de toutes puissances, et pour tous les usages
+</p>
+ </br>
+<p>
+Exemples de réalisations récentes :
+</p>
+ </br>
+<p>
+Un de nos clients souhaitait acquérir un ordinateur de bureau, pour faire des montages vidéos. Nous avons ainsi pu lui proposer un ordinateur complet, monté par nos soins, et adapté à son usage.
+</p>
+</br>
+<p>
+Un autre de nos clients a souhaité mettre en place un éclairage connecté, avec commande vocale, dans son domicile.
+</p>
+
+<p>
+Cette mise en place a fait baisser considérablement sa consommation électrique, et mettre en place plusieurs scénarios d’éclairage des pièces à vivre, en fonction des usages souhaités (configuration « film », configuration « repas de famille », …)
+</p>
+ </br>
+<p>
+N’hésitez pas à me contacter via le formulaire pour m’exposer la situation. Je prendrai contact avec vous sous 48h pour échanger sur votre situation et trouver la solution la plus adaptée.
+</p>
 
 
 
