@@ -9,7 +9,7 @@
                 <section>
                     <!-- ceci est un commentaire -->
                     <h1>
-                    <strong class="bold">AlexCraft</strong> est une entreprise spécialisée dans l’<strong class="bold">électricité</strong>, l’<strong class="bold">électronique</strong> et la <strong class="bold">domotique</strong>, domestique ou professionnelle.
+                        <strong class="bold">AlexCraft</strong> est une entreprise spécialisée dans l’<strong class="bold">électricité</strong>, l’<strong class="bold">électronique</strong> et la <strong class="bold">domotique</strong>, domestique ou professionnelle.
                     </h1>
 
                     <p>
@@ -24,21 +24,17 @@
                         Nos engagements :
                     </h2>
 
-                    <p>
-                        Qualité premium, Nous ne travaillons qu’avec des fournisseurs et fabricants reconnus, car dans ces domaines, la qualité et la fiabilité sont incontournables. Les installations fournies sont clé-en-main, vous n’avez rien à faire.
-                    </p>
+                    <ul class="engagements">
+                        <li><img src="/img/medal.png" alt="icône de qualité">Qualité premium. <br>
+                            <span>Nous ne travaillons qu’avec des fournisseurs et fabricants reconnus, car dans ces domaines, la qualité et la fiabilité sont incontournables. Les installations fournies sont clé-en-main, vous n’avez rien à faire.</span></li>
+                        <li><img src="/img/file.png" alt="icône de devis">Devis fiables. <br>
+                            <span>Chez <strong>Alexcraft</strong>, aucune mauvaise surprise après le devis. Chaque heure de travail non effectuée sera déduite de la facture. A l’inverse, chaque heure supplémentaire par rapport au devis initial n’est pas facturée.</span></li>
+                        <li><img src="/img/clock.png" alt="icône de temps, adaptabilité">Adaptabilité. <br>
+                        <span>Toujours à votre écoute, nous préparons ensemble l’organisation des chantiers, en fonction de vos contraintes personnelles.</span></li>
+                        <li><img src="/img/information.png" alt="icône d'information, communication'">Suivi et communication. <br>
+                        <span>Nous sommes à votre disposition pour vous accompagner au mieux dans vos projets. Nous restons également totalement disponible suite à l’installation, afin de vous aider pas-à-pas dans la prise en main.</span></li>
+                    </ul>
 
-                    <p>
-                        Devis fiables, Chez <strong>Alexcraft</strong>, aucune mauvaise surprise après le devis. Chaque heure de travail non effectuée sera déduite de la facture. A l’inverse, chaque heure supplémentaire par rapport au devis initial n’est pas facturée.
-                    </p>
-
-                    <p>
-                        Adaptabilité, Toujours à votre écoute, nous préparons ensemble l’organisation des chantiers, en fonction de vos contraintes personnelles.
-                    </p>
-
-                    <p>
-                        Suivi et communication, Nous sommes à votre disposition pour vous accompagner au mieux dans vos projets. Nous restons également totalement disponible suite à l’installation, afin de vous aider pas-à-pas dans la prise en main.
-                    </p>
                 </section>
             </div>
         </div>

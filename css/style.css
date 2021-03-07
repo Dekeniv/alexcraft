@@ -107,7 +107,7 @@ h2 {
 } 
 
 
-p, label {
+p, label, li {
   font-size: 2rem;
 }
 
@@ -406,6 +406,31 @@ textarea {
   content: " *";
   color: red;
 }
+
+/*----------- index */
+.engagements {
+  text-align: center;
+}
+
+.engagements span{
+  padding-top: 50px;
+  color: black;
+}
+
+.engagements li img {
+  width: 6rem;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.engagements li {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  color: #011e69;
+}
+
+
 
 /*=================================================
                         FOOTER
