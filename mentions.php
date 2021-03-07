@@ -6,14 +6,12 @@
   <div class="backgroundMain">
     <div class="secondMain">
       <div class="divWhite container80">
-        <section class="contact">
+        <section class="mentions">
           <h1>Mentions Légales</h1>
           <br />
-          <strong
-            >La seule contrepartie à l'utilisation de ces mentions légales, est
+          <strong>La seule contrepartie à l'utilisation de ces mentions légales, est
             l'engagement total à laisser le lien crédit subdelirium sur cette
-            page de mentions légales.</strong
-          ><br />
+            page de mentions légales.</strong><br />
           Vos mentions légales :
           <h2>Informations légales</h2>
           <h3>1. Présentation du site.</h3>
@@ -41,12 +39,7 @@
             80157 59100 Roubaix<br />
             Crédits : <br />
             Le modèle de mentions légales est offert par Subdelirium.com
-            <a
-              target="_blank"
-              href="https://www.subdelirium.com/generateur-de-mentions-legales/"
-              alt="generateur de mentions légales"
-              >Générateur de mentions légales</a
-            >
+            <a target="_blank" href="https://www.subdelirium.com/generateur-de-mentions-legales/" alt="generateur de mentions légales">Générateur de mentions légales</a>
           </p>
 
           <h3>

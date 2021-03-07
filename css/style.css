@@ -17,7 +17,7 @@
 }
 
 /*=================================================
-                        TESTS
+                        CONSTRUCTION
 =================================================*/
 
 #construction {
@@ -27,7 +27,7 @@
   padding: 5px 20px;
   text-align: center;
   position: absolute;
-  top: 14px;
+  top: 20px;
   left: 50%;
   transform: translate(-50%, -50%);
   animation: construction ease 0.4s;
@@ -41,10 +41,10 @@
 
 @keyframes construction {
   from {
-    top: -60px;
+    top: -200px;
   }
   to {
-    top: 14px;
+    top: 20px;
   }
 }
 
@@ -63,7 +63,8 @@ html {
 body {
   font-size: 1.6rem; /* taille de police de 16px de base, norme visuelle */
   margin: 0; /* retire les marges par défaut entre le body et le navigateur*/
-  font-family: "Raleway", Arial, sans-serif;
+  /* font-family: "Raleway", Arial, sans-serif; */
+  font-family: 'Nunito', sans-serif;
   position: relative;
 }
 
@@ -94,6 +95,35 @@ h5 {
   text-align: center;
 }
 
+h1 {
+  font-size: 3rem;
+  color: #011e69;
+  padding: 10px 0;
+}
+
+h2 {
+  font-size: 2.2rem;
+  padding: 30px 0 0 0;
+} 
+
+
+p, label {
+  font-size: 2rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/*----------- sections */
+.mentions {
+text-align: center;
+}
+
+.mentions h2 {
+  text-decoration: underline;
+}
+
 /*=================================================
                         HEADER
 =================================================*/
@@ -109,7 +139,6 @@ header {
 .container80 {
   width: 80%;
   margin: 0 auto;
-  padding: 10px 0;
 }
 
 header .container:first-child,
@@ -320,16 +349,10 @@ header a {
   color: red;
 }
 
-h2 {
-  padding: 30px 0 0 0;
-  font-size: 2rem;
-}
-
 .contact h2 {
   text-decoration: underline;
 }
 .contact {
-  padding: 30px;
   text-align: center;
 }
 

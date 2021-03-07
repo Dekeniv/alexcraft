@@ -1,5 +1,3 @@
-
-
 <!-- INCLUDE HEADER -->
 <?php include('header.inc.php'); ?>
 
@@ -42,7 +40,7 @@
               <label for="firstname" class="redStar">Prénom</label>
               <?= $inputError1; ?>
               <div class="value">
-                <input <?=$inputBorder1; ?> type="text" id="firstname" placeholder="Prénom" name="prenom" value="<?= $valuePrenom ?>" maxlength="20" title="1 à 20 lettres minuscules/majuscules" />
+                <input <?= $inputBorder1; ?> type="text" id="firstname" placeholder="Prénom" name="prenom" value="<?= $valuePrenom ?>" maxlength="20" title="1 à 20 lettres minuscules/majuscules" />
               </div>
 
             </div>
@@ -77,7 +75,7 @@
               <label for="query" class="redStar">Votre demande</label>
               <?= $inputError5; ?>
               <div class="value">
-                <textarea <?=$inputBorder5; ?> name="query" id="query" placeholder="Votre demande" pattern="[a-zA-ZÀ-ÿ0-9 \!\?\,\:\.\'\@]" maxlength="400" title="Maximum 400 caractères"><?= $valueQuery ?></textarea>
+                <textarea <?= $inputBorder5; ?> name="query" id="query" placeholder="Votre demande" pattern="[a-zA-ZÀ-ÿ0-9 \!\?\,\:\.\'\@]" maxlength="400" title="Maximum 400 caractères"><?= $valueQuery ?></textarea>
               </div>
 
             </div>
@@ -101,4 +99,3 @@
 
 <!-- je récupère mes variables communes -->
 <?php require 'commonVars.php'; ?>
-
