@@ -64,7 +64,7 @@ body {
   font-size: 1.6rem; /* taille de police de 16px de base, norme visuelle */
   margin: 0; /* retire les marges par défaut entre le body et le navigateur*/
   /* font-family: "Raleway", Arial, sans-serif; */
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   position: relative;
 }
 
@@ -104,10 +104,11 @@ h1 {
 h2 {
   font-size: 2.2rem;
   padding: 30px 0 0 0;
-} 
+}
 
-
-p, label, li {
+p,
+label,
+li {
   font-size: 2rem;
 }
 
@@ -122,7 +123,7 @@ section {
 }
 
 .mentions {
-text-align: center;
+  text-align: center;
 }
 
 .mentions h2 {
@@ -412,7 +413,7 @@ textarea {
   text-align: center;
 }
 
-.engagements span{
+.engagements span {
   padding-top: 50px;
   color: black;
 }
@@ -439,7 +440,6 @@ textarea {
 .slider img {
   overflow: hidden;
 }
-
 
 /*=================================================
                         FOOTER
@@ -474,17 +474,39 @@ footer p {
   padding-top: 10px;
 }
 
+/*----------- FOLLOW ME */
+.arrowSocial {
+  width: 25%;
+  position: absolute;
+  bottom: 1%;
+  right: 21%;
+}
+
 /*=================================================
                         RESPONSIVE
 =================================================*/
 
 /*----------- DESKTOP */
-
+@media screen and (min-width: 1450px) {
+  .arrowSocial {
+    width: 15%;
+    position: absolute;
+    bottom: 0.6%;
+    right: 32%;
+  }
+}
 /* 
 @media screen and (max-width :) 
 */
 
 /*----------- TABLET */
+@media screen and (max-width: 1024px) {
+  .arrowSocial {
+    width: 25%;
+    bottom: 1.4%;
+    right: 18%;
+  }
+}
 
 @media screen and (max-width: 1000px) {
   .logo {
@@ -519,9 +541,15 @@ footer p {
   }
 
   /*----------- slider */
-.slider {
-  width: 100%;
-}
+  .slider {
+    width: 100%;
+  }
+
+  .arrowSocial {
+    width: 30%;
+    bottom: 1.4%;
+    right: 10%;
+  }
 }
 
 /*----------- MOBILE */
@@ -543,11 +571,25 @@ footer p {
   .flexHeader {
     padding: 20px 0;
   }
+
+  .arrowSocial {
+    width: 28%;
+    bottom: 1.4%;
+    right: 6%;
+  }
 }
 
 @media screen and (max-width: 500px) {
   .contact input,
   textarea {
     width: 200px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .arrowSocial {
+    width: 28%;
+    bottom: 1.2%;
+    right: 2%;
   }
 }

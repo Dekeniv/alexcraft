@@ -41,8 +41,6 @@ scrollToTopButton.onclick = function(e) {
   scrollToTop();
 }
 
-
-
 // _________________________________________________________________________________________________________
 //                                      BUTTON MENU HAMBURGER
 // _________________________________________________________________________________________________________
@@ -53,7 +51,6 @@ let iconClose = document.querySelector('#iconClose');
 let iconOpen = document.querySelector('#iconOpen');
 
 document.addEventListener('DOMContentLoaded', function() { 
-
 
   // je clique sur le bouton
   buttonMenuHamburger.addEventListener('click',function(){
@@ -74,3 +71,6 @@ document.addEventListener('DOMContentLoaded', function() {
   })
 
 });
+
+
+
