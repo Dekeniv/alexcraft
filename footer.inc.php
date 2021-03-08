@@ -4,7 +4,7 @@
         <a href="https://www.instagram.com/alexcraft_33/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
         <a href="https://twitter.com/alexcraft_33" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
         <p><a href="mentions.php">Mentions Légales</a></p>
-        <img class="arrowSocial" id="arrowSocial" src="./img/arrow_social.png" alt="image pour suivre mes réseaux sociaux">
+        <img class="arrowSocial" id="arrowSocial" src="/img/arrow_social.png" alt="image pour suivre mes réseaux sociaux">
        
 </footer>
 
