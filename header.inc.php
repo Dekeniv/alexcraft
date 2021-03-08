@@ -14,7 +14,6 @@
 
     <!-- Favicon (ico + png), icon website (tabs, favorites) -->
     <link rel="icon" type="image/png" href="img/favicon.png">
-    <link rel="icon" type="image/svg" href="img/favicon.svg">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -70,7 +69,7 @@
                     <p>Contactez-moi</p>
                 </a>
                 <a href="quisuisje.php">
-                    <p>Qui -suis-je ?</p>
+                    <p>Qui sommes-nous ?</p>
                 </a>
                 <a href="covid.php">
                     <p>Info Covid-19</p>
@@ -91,7 +90,7 @@
                 <li><a href="particuliers.php">Particuliers</a></li>
                 <li><a href="professionnels.php">Professionnels</a></li>
                 <li><a href="contact.php">Contactez-moi</a></li>
-                <li><a href="quisuisje.php">Qui -suis-je ?</a></li>
+                <li><a href="quisuisje.php">Qui sommes-nous ?</a></li>
                 <li><a href="covid.php">Info Covid-19</a></li>
             </ul>
         </nav>
