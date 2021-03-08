@@ -478,7 +478,7 @@ footer p {
 .arrowSocial {
   width: 25%;
   position: absolute;
-  bottom: 1%;
+  bottom: 1.3%;
   right: 21%;
 }
 
@@ -491,7 +491,7 @@ footer p {
   .arrowSocial {
     width: 15%;
     position: absolute;
-    bottom: 0.6%;
+    bottom: 1.3%;
     right: 32%;
   }
 }
@@ -503,7 +503,7 @@ footer p {
 @media screen and (max-width: 1024px) {
   .arrowSocial {
     width: 25%;
-    bottom: 1.4%;
+    bottom: 1.8%;
     right: 18%;
   }
 }
